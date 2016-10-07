@@ -12,7 +12,7 @@ class conf
 		else
 		{
 
-			$path = WTY.'\core\config\\'.$file.'.php';
+			$path = WTY.'/core/config/'.$file.'.php';
 			if(is_file($path))
 			{
 				$conf = include $path;
@@ -44,7 +44,7 @@ class conf
 		else
 		{
 
-			$path = WTY.'\core\config\\'.$file.'.php';
+			$path = WTY.'/core/config/'.$file.'.php';
 			if(is_file($path))
 			{
 				$conf = include $path;
