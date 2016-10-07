@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<a style="display:block" href="/index/add">添加</a>
+{% for val in data %}
+<div style="border:1px red solid;height:140px;width:140px;float:left;margin-right:50px">
+	<h>{{ val.title }}</h>
+	<p>{{ val.content }}</p>
+	<a href="/index/show">查看</a>
+</div>
+{% endfor %}
+{% endblock %}
